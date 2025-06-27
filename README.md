@@ -17,10 +17,8 @@ Instrucciones para ejecutar el proyecto
 
 1. Clonar el repositorio
 
-git clone https://github.com/usuario/tu-repo.git
-cd tu-repo
-
-(Reemplazar “usuario/tu-repo” por tu nombre de usuario y nombre real del repositorio)
+git clone https://github.com/maxip98/pfo2-redes
+cd pfo2-redes
 
 2. Crear entorno virtual (opcional pero recomendado)
 
@@ -50,7 +48,7 @@ Registro de usuario
     Cuerpo JSON:
 
 {
-"usuario": "maxi",
+"usuario": "maxi1",
 "contraseña": "1234"
 }
 
@@ -69,7 +67,7 @@ Inicio de sesión
     Cuerpo JSON:
 
 {
-"usuario": "maxi",
+"usuario": "maxi1",
 "contraseña": "1234"
 }
 
@@ -90,7 +88,7 @@ Resultado: Página HTML con mensaje de bienvenida
 
 Capturas de pantalla
 
-Las pruebas exitosas se encuentran en la carpeta capturas/:
+Las pruebas exitosas se encuentran en la carpeta docs/:
 
     registro_ok.jpg
 
