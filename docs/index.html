@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>PFO 2 - Sistema de Tareas</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; line-height: 1.6; background-color: #f9f9f9; color: #333; }
+    h1, h2 { color: #004080; }
+    pre { background: #eee; padding: 10px; border-radius: 5px; }
+    img { max-width: 400px; margin: 10px 0; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+
+<h1>📌 PFO 2 - Sistema de Gestión de Tareas con API y Base de Datos</h1>
+
+<p>Este proyecto es una API RESTful desarrollada con Flask que permite:</p>
+<ul>
+  <li>Registrar usuarios</li>
+  <li>Iniciar sesión</li>
+  <li>Mostrar una página HTML de bienvenida</li>
+</ul>
+
+<h2>🔧 Tecnologías utilizadas</h2>
+<ul>
+  <li>Python 3.x</li>
+  <li>Flask</li>
+  <li>SQLite</li>
+  <li>Werkzeug</li>
+</ul>
+
+<h2>⚙️ Instrucciones básicas</h2>
+<pre>
+git clone https://github.com/maxip98/pfo2-redes
+cd tu-repo
+python -m venv venv
+source venv/bin/activate   # o venv\Scripts\activate en Windows
+pip install flask werkzeug
+python servidor.py
+</pre>
+
+<h2>🔍 Ejemplos de uso (JSON)</h2>
+<pre>
+POST /registro
+{
+  "usuario": "maxi1",
+  "contraseña": "1234"
+}
+
+POST /login
+{
+  "usuario": "maxi1",
+  "contraseña": "1234"
+}
+</pre>
+
+<h2>📷 Capturas de pantalla</h2>
+<img src="../capturas/registro_ok.jpg" alt="Registro exitoso">
+<img src="../capturas/login_ok.jpg" alt="Login correcto">
+<img src="../capturas/tareas.jpg" alt="Página tareas">
+
+<h2>🔗 Repositorio</h2>
+<p><a href="https://github.com/maxip98/pfo2-redes" target="_blank">Ver en GitHub</a></p>
+
+<h2>👤 Autor</h2>
+<ul>
+  <li>Pereyra Maximiliano</li>
+</ul>
+<p><strong>Materia:</strong> Programación sobre Redes<br>
+<strong>Carrera:</strong> Tecnicatura Superior en Desarrollo de Software<br>
+<strong>Año:</strong> 2025</p>
+
+</body>
+</html>
